@@ -1,5 +1,8 @@
 # Testing lambda functions locally with Sam
 
+
+Firstly must install **Sam**. [Click](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html) for installation steps.
+
 ### How to work?
 
 Open the terminal.
