@@ -1,7 +1,3 @@
-# Golang Custom Type Declarations
-
-**Example:**
-```go
 package main
 
 import "fmt"
@@ -29,4 +25,3 @@ func main() {
 	fmt.Println(stringList.Contains("b"))  //true
 	fmt.Println(stringList.Contains("ab")) //false
 }
-```
