@@ -18,15 +18,15 @@ func (s StringList) Contains(v string) bool {
 	return false
 }
 
-var stringList StringList
+var fruits StringList
 
 func init() {
-	stringList = StringList{"a", "b"}
+	fruits = StringList{"apple", "apple", "cherry"}
 }
 
 func main() {
-	fmt.Println(stringList.Contains("a"))  //true
-	fmt.Println(stringList.Contains("b"))  //true
-	fmt.Println(stringList.Contains("ab")) //false
+	fmt.Println(fruits.Contains("apple")) //true
+	fmt.Println(fruits.Contains("apple")) //true
+	fmt.Println(fruits.Contains("pear"))  //false
 }
 ```
